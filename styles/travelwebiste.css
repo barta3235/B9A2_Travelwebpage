@@ -41,7 +41,7 @@
 .nav-links>ul{
     display: flex;
     list-style: none;
-    gap: 44px;
+    gap: 40px;
 }
 
 .nav-list>li{
@@ -135,6 +135,10 @@
     gap: 8px;
     background-color: #FF5400;
     color: #FFF;
+}
+
+.header{
+    margin-bottom: 100px;
 }
 
 
