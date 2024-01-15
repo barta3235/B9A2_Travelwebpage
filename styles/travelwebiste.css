@@ -54,6 +54,88 @@
 
 /* banner section */
 
+.banner-container{
+    margin: 0px 135px;
+    margin-top: 49px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-color: #FF5400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background-size: cover;
+}
+
+.banner-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+    text-align: center;
+}
+
+.banner-description{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    max-width: 676px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.banner-input{
+    display: flex;
+    gap: 18px;
+    margin-bottom: 106px;
+    background-color: rgba(255, 255, 255, 0.30);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.banner-input-feild{
+    max-width: 160px;
+    background-color: #FFF;
+    border-radius: 8px;
+    display: flex;
+    gap: 60px;
+    padding: 16px 15px 16px 16px;
+
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-where-feild{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 160px;
+    padding: 16px 70px 16px 16px;
+    background-color: #FFF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-find-feild{
+    background-color: #FFF;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 160px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 16px 35px;
+    gap: 8px;
+    background-color: #FF5400;
+    color: #FFF;
+}
 
 
 
