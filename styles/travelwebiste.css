@@ -551,24 +551,89 @@ image */
 
 
 .perfectplace-img{
-    max-width: 610px;
+    /* max-width: 610px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     background-image: url("/Images/Group\ 40089.png");
     background-size: cover;
+    max-width: 610px;
     border-radius: 16px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(5,1fr);
 
 }
+
 
 .pp-image-title{
-    color: #FFF;
+    /* color: #FFF;
     text-align: center;
     font-size: 24px;
+    font-weight: 700; */
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    grid-column: 4/span 6;
+    grid-row: 3;
+    text-align: center;
     font-weight: 700;
-    padding-left: 150px;
-    padding-right: 150px;
+    color: #FFF;
+    font-size: 24px;
+    align-items: center;
 }
+
+.pp-image-bottom{
+    /* display: flex;
+    justify-content: space-evenly;
+    color: var(--Dark-07, #F3F3F3);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400; */
+    
+
+}
+
+
+
+.pp-image-bottom-left{
+    grid-column: -13/span 2;
+    grid-row: 5;
+    color: var(--Dark-07, #F3F3F3);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pp-image-bottom-right{
+    color: var(--Dark-07, #F3F3F3);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    grid-column: -3/span 2;
+    grid-row: 5;
+}
+
+.pp-line{
+    grid-column: -13/span 13;
+    height: 8px;
+    grid-row: 5;
+
+    padding-right: 190px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.30);
+    border-bottom: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+/* <!-- newsletter section starts --> */
+
 
 
 
