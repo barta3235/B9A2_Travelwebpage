@@ -152,8 +152,13 @@
 .populartours-container{
     margin: 0px 135px;
     display: flex;
+    justify-content: space-between;
     gap: 50px;
     margin-bottom: 100px;
+}
+
+.populartours-content{
+    max-width: 577px;
 }
 
 
@@ -184,6 +189,20 @@
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
+
+
+/* img */
+
+.populartours-img{
+    display: flex;
+    max-width: 544px;
+    background-image: url("/Images/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    padding-top: 10px;
+  }
 
 .primary-button{
     color: #FFF;
@@ -476,6 +495,80 @@
    margin-bottom: 24px;
 }
 
+
+
+
+
+
+/* section perfect place */
+
+.perfectplace{
+    margin: 0px 135px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    gap: 50px;
+
+}
+
+.perfectplace-content{
+    max-width: 532px;
+}
+
+/* pp-content */
+
+.pp-content-title{
+    color: #131318; 
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.pp-content-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.pp-content-list{
+    color: #131318;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.pp-content-list li{
+    margin-bottom: 16px;
+}
+
+
+/* 
+image */
+
+
+
+.perfectplace-img{
+    max-width: 610px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/Images/Group\ 40089.png");
+    background-size: cover;
+    border-radius: 16px;
+
+}
+
+.pp-image-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 150px;
+    padding-right: 150px;
+}
 
 
 
