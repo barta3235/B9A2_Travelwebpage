@@ -682,6 +682,7 @@ image */
 }
 
 
+
 /* img */
 
 .newsletter-img{
@@ -755,6 +756,7 @@ margin-bottom: 32px;
     gap: 20px;
     margin-bottom: 50px;
     justify-content: center;
+    font-size: 25px;
 }
 
 .footer-end-text{
@@ -763,6 +765,132 @@ margin-bottom: 32px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 300;
+}
+
+.nai{
+    display: none;
+}
+
+
+@media screen and (max-width:600px){
+
+    /* popular container */
+     .populartours-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+     .populartours-content{
+        width: 100%;
+     }
+
+     .populartours-img{
+        width: 100%;
+        height: 600px;
+     }
+     .pp-image-tt{
+        
+        text-align: center;
+    }
+ 
+
+
+   /* destination section */
+    .destination-container{
+        width: 100%;
+        /* margin-left: 10px;
+        padding-right: 10px; */
+        
+    }
+
+    .destination-img-container{
+         display: flex;
+         flex-direction: column;
+    }
+
+
+
+
+    /* why choose us section */
+    .choose-container{
+        width: 100%;
+        /* margin-left: 10px;
+        padding-right: 10px; */
+    }
+
+    .choose-card-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+/* 
+    deals section */
+
+    .deals-container{
+        width: 100%;
+        /* margin-left: 10px;
+        padding-right: 10px; */
+    }
+
+    .mediumbox-1, .mediumbox-2, .mediumbox-3{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+    }
+
+
+    /* perfect place section */
+
+    .perfectplace{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* margin-left: 10px;
+        padding-right: 10px; */
+    }
+
+
+    /* newsletter sectioon */
+
+    .newsletter-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 10px;
+        padding-right:10px ; */
+    }
+
+    .newsletter-content{
+          width: 100%;
+    }
+
+    .newsletter-img{
+        width: 100%;
+        height: 522px;
+        
+    }
+
+    .newsletter-img-textbox{
+        left: 25.5%;
+    }
+
+
+    .footer{
+        width: max-content;
+        
+    }
+
+   
+
+
+
+
+
+    
 }
 
 
