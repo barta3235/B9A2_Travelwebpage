@@ -172,7 +172,7 @@
 }
 
 .text1{
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .text2>li{
@@ -265,6 +265,92 @@
 .grid-item7{
     grid-column: -8/span 7;
 } 
+
+
+
+
+
+
+
+
+/* why choose us section */
+
+.choose-container{
+    margin: 0px 135px;
+   margin-bottom: 100px;
+}
+
+.choose-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.choose-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+
+
+.choose-card-title{
+     margin-top: 32px;
+     margin-bottom: 16px;
+     color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+.choose-card-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 24px;
+}
+
+.choose-card-description{
+     margin-top: 16px;
+     color: #5A5A5D;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px; 
+}
+
+
+.card-item1, .card-item3{
+    padding: 32px 55px 32px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-item2{
+    padding: 32px 55px 32px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-item1{
+   grid-column: 1/span 6;
+}
+
+.card-item3{
+    grid-column: -10/span 6;
+}
+
+.card-item2{
+    grid-column: 7/span 6;
+}
+
+
 
 
 
