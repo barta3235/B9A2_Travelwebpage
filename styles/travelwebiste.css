@@ -893,6 +893,10 @@ margin-bottom: 32px;
         flex-direction: column;
     }
 
+    .nav-links{
+        display: none;
+    }
+
    
 
 
