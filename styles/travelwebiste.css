@@ -820,9 +820,18 @@ margin-bottom: 32px;
 
 @media screen and (max-width:600px){
 
+    .nav{
+        justify-content: center;
+    }
+
+    .header{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
 
     .banner-container{
-        
+        width: 500px;
     }
 
 
