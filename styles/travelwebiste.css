@@ -433,6 +433,7 @@
 }
 
 .mediumbox-2{
+    
     margin-bottom: 24px;
     display: flex;
     padding-top: 55px;
@@ -476,9 +477,11 @@
 
 .smallbox-title{
     margin-bottom: 16px;
-    color: #131318;
+    /* color: #131318; */
+    color: #FF5400;
     font-size: 24px;
     font-weight: 800;
+    
 }
 
 .smallbox-description{
