@@ -65,7 +65,7 @@
 .banner-container{
     margin: 0px auto;  
     margin-top: 49px;
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url("../assets/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     background-color: #FF5400;
     display: flex;
@@ -427,7 +427,7 @@
     padding-right: 55px;
     padding-bottom: 55px;
     flex-direction: row-reverse;
-    background-image: url("/assets/Group\ 39.png");
+    background-image: url("../assets/Group\ 39.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -439,7 +439,7 @@
     padding-top: 55px;
     padding-left: 55px;
     padding-bottom: 55px;
-    background-image: url("../assets/Rectangle\ 10.png");
+    background-image: url("../assets/Group\ 40.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -477,8 +477,7 @@
 
 .smallbox-title{
     margin-bottom: 16px;
-    /* color: #131318; */
-    color: #FF5400;
+    color: #131318;
     font-size: 24px;
     font-weight: 800;
     
@@ -555,7 +554,7 @@ image */
 
 
 .perfectplace-img{
-    background-image: url("/Images/Group\ 40089.png");
+    background-image: url("../assets/Group\ 40089.png");
     background-size: cover;
     max-width: 610px;
     border-radius: 16px;
