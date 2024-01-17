@@ -820,10 +820,18 @@ margin-bottom: 32px;
 
 @media screen and (max-width:600px){
 
+
+    .banner-container{
+        
+    }
+
+
     /* popular container */
      .populartours-container{
         flex-direction: column;
-        width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        /* width: 100%; */
     }
 
      .populartours-content{
@@ -842,9 +850,11 @@ margin-bottom: 32px;
 
    /* destination section */
     .destination-container{
-        width: 100%;
+        
         /* margin-left: 10px;
         padding-right: 10px; */
+        margin-left: 1rem;
+        margin-right: 1rem;
         
     }
 
@@ -858,9 +868,12 @@ margin-bottom: 32px;
 
     /* why choose us section */
     .choose-container{
-        width: 100%;
+      
         /* margin-left: 10px;
         padding-right: 10px; */
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
     }
 
     .choose-card-container{
@@ -876,9 +889,10 @@ margin-bottom: 32px;
     deals section */
 
     .deals-container{
-        width: 100%;
         /* margin-left: 10px;
         padding-right: 10px; */
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .mediumbox-1, .mediumbox-2, .mediumbox-3{
@@ -893,20 +907,21 @@ margin-bottom: 32px;
     .perfectplace{
         display: flex;
         flex-direction: column;
-        width: 100%;
         /* margin-left: 10px;
         padding-right: 10px; */
+        margin-left: 1rem;
+        margin-right: 1rem;
+
     }
 
 
     /* newsletter sectioon */
 
     .newsletter-container{
-        width: 100%;
         display: flex;
         flex-direction: column;
-        /* margin-left: 10px;
-        padding-right:10px ; */
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .newsletter-content{
@@ -946,6 +961,9 @@ margin-bottom: 32px;
         display: flex;
         justify-content: space-between;
     }
+
+
+    /* video section */
 
     .choose-vid-container{
         display: flex;
